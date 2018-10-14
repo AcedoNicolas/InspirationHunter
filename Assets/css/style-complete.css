@@ -182,7 +182,8 @@ input[type="submit"]:active{
 
 .signup-div ul li input[type="submit"]{
 	background:#ee9b33;
-	border:1px solid orange;
+	border:1px solid black;
+	color:white;
 	padding: 4px 10px;
 	cursor:pointer;
 	float:right;
@@ -191,9 +192,7 @@ input[type="submit"]:active{
 	margin-top: 4px;
 }
 
-.signup-div ul li input[type="submit"]:hover{
-	background:#ffa80699;
-}
+
 /*-------------------------Sign UP WRAPPPER ends-----------------------*/
 /*-------------------------INDEX PAGE CSS ENDS---------------------------------*/
 
@@ -243,7 +242,7 @@ input[type="checkbox"]#drop-wrap1:checked ~ .drop-wrap{
 	height: 50px;
 }
 .nav .nav-right ul ul li:hover{
-	background:#65ba54;
+	background:#ee9b33;
 
 }
 .nav .nav-right ul ul li:hover> a{
@@ -261,9 +260,9 @@ input[type="checkbox"]#drop-wrap1:checked ~ .drop-wrap{
 	margin: 10px 0px;
 }
 .nav .nav-left ul li:hover{
-box-shadow: inset 0px -4px 0px #6cc854;}
+box-shadow: inset 0px -4px 0px #ee9b33;}
 .nav .nav-left ul li:hover a .fa, .nav .nav-left ul li:hover a{
-	color:#6cc854;
+	color:#ee9b33;
 }
 
 .nav .nav-right ul li input[type="text"]{
@@ -286,7 +285,7 @@ box-shadow: inset 0px -4px 0px #6cc854;}
 }
 
 .nav .nav-right ul li input[type="submit"]:hover{
-	background:#2492e6;
+	background:#ee9b33;
 }
 .nav .nav-right ul li .fa{
 	left: -20px;
