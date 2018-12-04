@@ -132,7 +132,7 @@ input[type="submit"]:active{
 	border: 1px solid #333;
 	border-radius: 3px;
 	padding: 4px 15px;
-	background: #ee9b33;
+	background: #8E00E1;
 	color: white;
 	font-weight: bold;
 	cursor:pointer;
@@ -181,7 +181,7 @@ input[type="submit"]:active{
 }
 
 .signup-div ul li input[type="submit"]{
-	background:#ee9b33;
+	background:#8E00E1;
 	border:1px solid black;
 	color:white;
 	padding: 4px 10px;
@@ -242,7 +242,7 @@ input[type="checkbox"]#drop-wrap1:checked ~ .drop-wrap{
 	height: 50px;
 }
 .nav .nav-right ul ul li:hover{
-	background:#ee9b33;
+	background:#8E00E1;
 
 }
 .nav .nav-right ul ul li:hover> a{
@@ -260,9 +260,9 @@ input[type="checkbox"]#drop-wrap1:checked ~ .drop-wrap{
 	margin: 10px 0px;
 }
 .nav .nav-left ul li:hover{
-box-shadow: inset 0px -4px 0px #ee9b33;}
+box-shadow: inset 0px -4px 0px #8E00E1;}
 .nav .nav-left ul li:hover a .fa, .nav .nav-left ul li:hover a{
-	color:#ee9b33;
+	color:#8E00E1;
 }
 
 .nav .nav-right ul li input[type="text"]{
@@ -285,7 +285,7 @@ box-shadow: inset 0px -4px 0px #ee9b33;}
 }
 
 .nav .nav-right ul li input[type="submit"]:hover{
-	background:#ee9b33;
+	background:#8E00E1;
 }
 .nav .nav-right ul li .fa{
 	left: -20px;

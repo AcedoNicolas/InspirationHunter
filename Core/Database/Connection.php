@@ -1,5 +1,5 @@
 <?php 
-$DatabaseName = 'mysql:host=localhost; dbname=InspirationHunter';
+$DatabaseName = 'mysql:host=localhost; dbname=InspirationWarrior';
 $user = 'root';
 $password = '';
 

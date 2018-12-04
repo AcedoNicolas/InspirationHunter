@@ -1,10 +1,12 @@
 <?php
 include'core/database/connection.php';
+include'core/init.php';
+
 ?>
 
 <html>
 	<head>
-		<title>InspirationHunter</title>
+		<title>InspirationWarrior</title>
 		<meta charset="UTF-8" />
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css"/>
 		<link rel="stylesheet" href="assets/css/style-complete.css"/>
@@ -12,7 +14,7 @@ include'core/database/connection.php';
 	<!--Helvetica Neue-->
 <body>
 <div class="front-img">
-	<img src="assets/images/background.jpg"></img>
+	<img src="assets/images/Background.jpg"></img>
 </div>	
 
 <div class="wrapper">
@@ -48,11 +50,13 @@ include'core/database/connection.php';
 	<div class="main-container">
 		<!-- content left-->
 		<div class="content-left">
+		<p style="margin-left: 50px;"> 	<img src="Assets/images/Logo.png" alt="Logo" width="250" height="250" ></p>
             <br>
-			<h1>Inspiration Hunter</h1>
+			<h1>Inspiration Warrior</h1>
 			<br/>
-			<p>Welcome on Inspiration Hunter.This is the perfect place to share all your design's with the rest of the world.
+			<p>Welcome Warrior! This is the perfect place to share all your design content related to Gaming and eSports.
                 Just register and get started right now.
+				Join the creative gaming community now!
             </p>
 		</div><!-- content left ends -->	
 

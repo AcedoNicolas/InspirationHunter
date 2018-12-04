@@ -4,5 +4,28 @@ class User{
 function __construct($pdo){
     $this->pdo = $pdo;
 }
+public function checkInput($var){//deze functie kan van overal opgeroepen worden
+$var = htmlspecialchars($var);
+$var = trim($var);//removes whitespace
+$var = stripcslashes($var); //remove slaches from string
+return $var;
+}
+public function login($email,$password){//Checken voor de gegevens in onze database voor de login
+$stmt = $this->pdo->prepare("SELECT'user_id' FROM 'users' WHERE 'email' = :email AND 'password' = :password");// hier voorkom je SQL injection
+$stmt->bindParam(":email",$email,PDO::PARAM_STR);
+$stmt->bindParam(":password",md5($password),PDO::PARAM_STR);
+$stmt->execute();
+
+//checken of de gevonden users minstens 1 is
+$user = $stmt->fetch(PDO::FETCH_OBJ);
+$count = $stmt->rowCount();
+
+if($count > 0){
+    $_SESSION['user_id'] = $user->user_id;
+    header('Location:home.php');
+}else{
+   return false; 
+}
+}
 }
 ?>
