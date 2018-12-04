@@ -6,7 +6,7 @@ if(isset($_POST['login']) && !empty($_POST['login'])){
 		$email = $getFromU->checkInput($email);
 		$password = $getFromU->checkInput($password);
 
-		if(!filter_var($email,FILTER_VALIDATE_EMAIL)){
+		if(!filter_var($email,FILTER_VALIDATE_EMAIL)){//check dat @bvb ingevuld is
 			$error = "Invalid Format";
 		}else{
 			//login
@@ -16,7 +16,7 @@ if(isset($_POST['login']) && !empty($_POST['login'])){
 		}
 
 	}else{
-		$error = "Please enter your username and passowrd";
+		$error = "Please enter your username and password";
 	}
 }
 
@@ -33,10 +33,11 @@ if(isset($_POST['login']) && !empty($_POST['login'])){
 		
 	</ul>
 	<?php
+	//hier echo van fout boodschap
 	if(isset($error)){
 	echo ' <li class="error-li">
 	<div class="span-fp-error">'.$error.'</div>
- </li> '	;
+ </li> ';
 	}
 
 
